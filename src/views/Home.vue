@@ -1,15 +1,16 @@
-<template>
-  <hello-world />
+<template lang="pug">
+  div
+    ngs-map
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import NgsMap from "../components/NgsMap";
 
 export default {
   name: "Home",
 
   components: {
-    HelloWorld,
+    NgsMap
   },
 };
 </script>
